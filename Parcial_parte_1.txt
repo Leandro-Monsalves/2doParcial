@@ -1,0 +1,52 @@
+SEGUNDO PARCIAL ARQUITECTURA Y SISTEMAS OPERATIVOS.
+
+1-Teniendo en cuenta las capas del modelo OSI, mencionar que protocolos interactúan en las: a. Capa de Aplicación: b. Capa de Transporte:
+En la capa de aplicación podemos encontrar los protocolos FTP (File transfer Procotol), HTTP (Hipertex Transfer Protocol), SMP (Simple Mail Transfer Protocol), DNS (Domain Name Server), los NFS (Netword File System) y telnet entre otros.
+En la capa de transporte podemos encontrar los protocolos como TCP (Transimission Control Protocol) y UDP (User Datagram Protocol). Que ayudan a facilitar la comunicación entre punto a punto desde un programa de aplicación a otro. Realizan un checksum para verifimar que la información no haya sido modificada.
+
+2-Detallar las clases de IP detallando la cantidad de bit destinados a la parte de Red y Host, para cada clase.
+Las clases de IP que podemos encontrar son: 
+Clase A= Asignadas  a organización gubernamentales, además soportan redes de internet grandes. En esta clase el primer octeto de la dirección IP define la red, y los tres octetos restantes se dedican a asignar direcciones a los hosts. El rango de esta clase abarca entre el 0 a 127.
+En esta clase los primeros 8 bits son destinados a la red y los 24 restantes a los host.
+120.211.23.25
+
+Clase B= Utilizadas por grandes empresas y organaziones de tamaño medio, soportan redes de internet moderadas. En esta clase los dos primeros octetos definen el rango de IP, y los dos restantes se asignan a la los host. El rango de esta clase es de 128 a 191
+En esta clase los 16 primeros bits son destinados a la red y los otros 16 para los host.
+130.244.53.5
+
+Clase C= Esta clase se asigna a todos lo demás solicitantes, soportan redes de internet pequeñas.
+En esta clase C los primeros octetos definen el tipo de red y el ultimo las direcciones IP disponibles para asignación a hosts.El rango de esta clase es de 192 a 223
+En esta clase los primeros 14 bits son destinados a la red y los otros 8 para el host.
+192.168.50.25
+
+CLASE D= Esta clase de IP contiene desde el rango 224 hasta el 239. 
+Ademas existen direcciones resevadas para el uso de redes privadas, por lo tanto no son utiulizables en Internet. 
+
+3-Mencionar tres tipos de componentes que pueden conectar en una red PAN.
+Los tipos de componentes que pueden conectar en una red Pan (red privada) pueden ser;
+•Computadoras
+•Dispositivos celulares
+•Impresoras
+
+4-Responder: 
+a.A que red wifi estas conectado: 
+Estoy conectado via inalámbrica a la red FRTDF ALUMNOS
+
+b.A que rango de IP pertenece: 192.168.2.167 y pertenece al rango C, donde soportan redes de internet pequeñas.
+
+7-Mencionar los recursos básicos que debes configurar en la instalación de una máquina virtual.
+Los recursos básicos que debemos configurar en la instalación de una Marquina virtual son la configuración de la CPU virtual, la memoria RAM, la memoria de disco, configuración de red. Todo esto es lo básico para que pueda funcionar de manera efectiva.
+
+8-Mencionar los servicios que podemos utilizar de la Nube: PaaS.
+Los servicios de podemos utilizar en la nube Paas son; El sistema operativo, los lenguajes de programación, las librerías y las herrameitnas. Algunos ejemplos son; Azure App Service, Google App Engine, entre otras.
+
+9- Definir: 
+A.Rama
+B.Repositorio 
+C.Mencionas las tres áreas de trabajo que utiliza el gitbash para trabajar.
+La rama se una versión del código del proyecto en donde estábamos trabajando, las ramas ayudan a mantener el orden en el control de versiones y poder manipular el código de forma segura.
+
+Un repositorio es un proyecto que contiene multiples Archivos. En algunos casos un repositorio contendrá archivos basados en códigos.
+
+Las tres áreas de trabajo que utiliza gitbash son Working directory, Staging  área, Local repository y Remote repository.
+
